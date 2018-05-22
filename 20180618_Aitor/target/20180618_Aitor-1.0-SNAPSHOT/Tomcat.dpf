@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="20180618_aitor" path="/20180618_Aitor">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/20180618_Aitor" password="2018" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/junio2018?autoReconnect=true" username="java2018"/>
+</Context>
