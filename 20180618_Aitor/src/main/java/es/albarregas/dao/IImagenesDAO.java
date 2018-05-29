@@ -13,13 +13,10 @@ import java.util.ArrayList;
  * @author aitor
  */
 public interface IImagenesDAO {
-    public void addAlumno(Imagenes imagenes);
-    public ArrayList<Imagenes> getAlumnos();
-    public Imagenes getAlumno(int idImagen);
-    public ArrayList<Imagenes> getAlumnosEquipo();
-    public ArrayList<Imagenes> getAlumnosSinEquipo();
-    
-    public void updateAlumno(Imagenes categorias);
-    public void deleteAlumno(Imagenes categorias);
+    public void addImagen(Imagenes imagenes);
+    public ArrayList<Imagenes> getImagenes();
+    public Imagenes getImagen(int idImagen);
+    public void updateImagen(Imagenes imagenes);
+    public void deleteImagen(Imagenes imagenes);
     public void closeConnection();
 }

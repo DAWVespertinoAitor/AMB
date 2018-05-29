@@ -21,14 +21,14 @@ public class Productos implements Serializable {
     private double precioUnitario;
     private int stock;
     private int stockMinimo;
-    private Date fechaAlata;
+    private Date fechaAlta;
     private char oferta;
     private char fueraCatalogo;
 
     public Productos() {
     }
 
-    public Productos(int idProducto, int idCategoria, int idMarca, String denominacion, String descripcion, double precioUnitario, int stock, int stockMinimo, Date fechaAlata, char oferta, char fueraCatalogo) {
+    public Productos(int idProducto, int idCategoria, int idMarca, String denominacion, String descripcion, double precioUnitario, int stock, int stockMinimo, Date fechaAlta, char oferta, char fueraCatalogo) {
         this.idProducto = idProducto;
         this.idCategoria = idCategoria;
         this.idMarca = idMarca;
@@ -37,10 +37,12 @@ public class Productos implements Serializable {
         this.precioUnitario = precioUnitario;
         this.stock = stock;
         this.stockMinimo = stockMinimo;
-        this.fechaAlata = fechaAlata;
+        this.fechaAlta = fechaAlta;
         this.oferta = oferta;
         this.fueraCatalogo = fueraCatalogo;
     }
+
+    
 
     public char getFueraCatalogo() {
         return fueraCatalogo;
@@ -114,12 +116,12 @@ public class Productos implements Serializable {
         this.stockMinimo = stockMinimo;
     }
 
-    public Date getFechaAlata() {
-        return fechaAlata;
+    public Date getFechaAlta() {
+        return fechaAlta;
     }
 
-    public void setFechaAlata(Date fechaAlata) {
-        this.fechaAlata = fechaAlata;
+    public void setFechaAlta(Date fechaAlta) {
+        this.fechaAlta = fechaAlta;
     }
 
     public char getOferta() {
@@ -129,6 +131,5 @@ public class Productos implements Serializable {
     public void setOferta(char oferta) {
         this.oferta = oferta;
     }
-    
     
 }

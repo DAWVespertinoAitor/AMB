@@ -8,6 +8,17 @@
     margin-bottom: 0;
 }
 
+
+#buscador {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
 footer {
     color: white;
     background-color: #1C1C1C;

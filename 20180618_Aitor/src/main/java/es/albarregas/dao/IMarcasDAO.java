@@ -16,9 +16,6 @@ public interface IMarcasDAO {
     public void addMarca(Marcas marcas);
     public ArrayList<Marcas> getMarcas();
     public Marcas getMarca(int idMarca);
-//    public ArrayList<Categorias> getAlumnosEquipo();
-//    public ArrayList<Categorias> getAlumnosSinEquipo();
-    
     public void updateMarca(Marcas marcas);
     public void deleteMarca(Marcas marcas);
     public void closeConnection();

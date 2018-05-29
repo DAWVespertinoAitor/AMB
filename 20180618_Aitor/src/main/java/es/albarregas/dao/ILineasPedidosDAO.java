@@ -16,9 +16,6 @@ public interface ILineasPedidosDAO {
     public void addLineaPedido(LineasPedidos lineaPedido);
     public ArrayList<LineasPedidos> getLineasPedidos();
     public LineasPedidos getLineaPedido(int idLineaPedido);
-//    public ArrayList<Categorias> getAlumnosEquipo();
-//    public ArrayList<Categorias> getAlumnosSinEquipo();
-    
     public void updateLineaPedido(LineasPedidos lineaPedido);
     public void deleteLineaPedido(LineasPedidos lineaPedido);
     public void closeConnection();

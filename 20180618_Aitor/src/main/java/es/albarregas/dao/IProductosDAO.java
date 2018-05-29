@@ -16,9 +16,6 @@ public interface IProductosDAO {
     public void addProducto(Productos productos);
     public ArrayList<Productos> getProductos();
     public Productos getProducto(int idProducto);
-//    public ArrayList<Categorias> getAlumnosEquipo();
-//    public ArrayList<Categorias> getAlumnosSinEquipo();
-    
     public void updateProducto(Productos productos);
     public void deleteProducto(Productos productos);
     public void closeConnection();

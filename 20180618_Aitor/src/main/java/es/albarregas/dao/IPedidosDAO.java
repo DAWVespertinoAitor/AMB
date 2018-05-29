@@ -16,9 +16,6 @@ public interface IPedidosDAO {
     public void addPedido(Pedidos pedidos);
     public ArrayList<Pedidos> getPedidos();
     public Pedidos getPedido(int idPedido);
-//    public ArrayList<Categorias> getAlumnosEquipo();
-//    public ArrayList<Categorias> getAlumnosSinEquipo();
-    
     public void updatePedido(Pedidos pedidos);
     public void deletePedido(Pedidos pedidos);
     public void closeConnection();

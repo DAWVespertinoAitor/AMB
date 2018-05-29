@@ -8,7 +8,9 @@ es\albarregas\dao\IClientesDAO.class
 es\albarregas\dao\IProductosDAO.class
 es\albarregas\dao\IUsuariosDAO.class
 es\albarregas\beans\Pedidos.class
+es\albarregas\dao\ConnectionFactory.class
 es\albarregas\dao\IMarcasDAO.class
+es\albarregas\controllers\Categorias.class
 es\albarregas\dao\CategoriasDAO.class
 es\albarregas\daofactory\DAOFactory.class
 es\albarregas\dao\MarcasDAO.class

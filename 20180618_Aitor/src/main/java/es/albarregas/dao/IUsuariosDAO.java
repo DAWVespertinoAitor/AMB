@@ -17,9 +17,6 @@ public interface IUsuariosDAO {
     public void addUsuario(Usuarios usuarios);
     public ArrayList<Usuarios> getUsuarios();
     public Usuarios getUsuario(int idUsuario);
-//    public ArrayList<Categorias> getAlumnosEquipo();
-//    public ArrayList<Categorias> getAlumnosSinEquipo();
-    
     public void updateUsuario(Usuarios usuarios);
     public void deleteUsuario(Usuarios usuarios);
     public void closeConnection();
