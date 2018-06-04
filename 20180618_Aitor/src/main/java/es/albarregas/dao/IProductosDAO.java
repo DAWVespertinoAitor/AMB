@@ -15,6 +15,7 @@ import java.util.ArrayList;
 public interface IProductosDAO {
     public void addProducto(Productos productos);
     public ArrayList<Productos> getProductos();
+    public ArrayList<Productos> getProductosGroupByCategoria(String idCategoria);
     public Productos getProducto(int idProducto);
     public void updateProducto(Productos productos);
     public void deleteProducto(Productos productos);

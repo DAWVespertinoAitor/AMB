@@ -33,7 +33,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar"  style="margin-top: 15px; margin-bottom: 15px;">
                     <ul class="nav navbar-nav">
-                        <li><input type="text" style="margin-top: 10px; height: 35px; max-width: 200px;" class="btn" id="buscador" placeholder="Buscar productos..." title="Busca un producto"></li>
+                        <li>
+                            <!--<input type="text" style="margin-top: 10px; height: 35px; max-width: 200px;" class="btn" id="buscador" placeholder="Buscar productos..." title="Busca un producto">-->
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group input-group">
+                                    <input type="text" name="buscador" style="margin: 0 auto; height: 35px; max-width: 200px;" class="form-control" placeholder="Buscar..." title="Busca un producto">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" style="margin: 0 auto; height: 35px;" type="button">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </span>        
+                                </div>
+                            </form>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
 
@@ -45,20 +57,17 @@
         </nav>
         <div class="container-fluid">
             <div class="row content">
-                <div class="col-sm-3 sidenav hidden-xs">
+                <div class="col-sm-3">
                     <button id="categorias" class="btn dropdown-toggle" style="background-color: #5d202a; color: white; margin-top: 10px;" type="button" data-toggle="dropdown">
                         <!--<img src="./IMG/Pagina/menu-icon.png" width="20px"/>--> Categorias
                         <span class="caret"></span>
                     </button>
                     <div id="listaCate">
-                        <c:if test="${sessionScope.categoriasSesion != null}">
-                            <ul class='nav nav-stacked'>
-                                <c:forEach var="cate" items="${sessionScope.categoriasSesion}">
-                                    <%System.out.println("eeeeeeeeeeee");%>
-                                    <li><a href=\"Controlador?cate="${cate.nombre}><c:out value="${cate.nombre}"/></a></li>
-                                    </c:forEach>
-                            </ul>
-                        </c:if>
+                        <ul class='nav nav-stacked'>
+                            <c:forEach var="cate" items="${applicationScope.categoriasSesion}">
+                                <li><a href="Controlador?opCate=${cate.idCategoria}"><c:out value="${cate.nombre}"/></a></li>
+                            </c:forEach>
+                        </ul>
                     </div>
                 </div>
                 <br>
@@ -119,14 +128,6 @@
         </footer>
     </body>
     <script>
-        <c:if test="${sessionScope.categoriasSesion == null}">
-        $(document).ready(function () {
-            $.post('Categorias', {
-
-            }, function (responseText) {
-                $('#listaCate').html(responseText);
-            });
-        });
-        </c:if>
+        
     </script>    
 </html>

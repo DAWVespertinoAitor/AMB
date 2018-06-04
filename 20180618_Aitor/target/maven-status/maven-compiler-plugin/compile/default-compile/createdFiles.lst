@@ -18,13 +18,15 @@ es\albarregas\dao\ClientesDAO.class
 es\albarregas\dao\ImagenesDAO.class
 es\albarregas\dao\ProductosDAO.class
 es\albarregas\filters\UTF8Filter.class
+es\albarregas\controllers\Controlador.class
 es\albarregas\dao\ILineasPedidosDAO.class
 es\albarregas\beans\Clientes.class
 es\albarregas\beans\Productos.class
-es\albarregas\beans\Marcas.class
 es\albarregas\dao\LineasPedidosDAO.class
+es\albarregas\beans\Marcas.class
 es\albarregas\beans\LineasPedidos.class
 es\albarregas\dao\ICategoriasDAO.class
 es\albarregas\dao\PedidosDAO.class
+es\albarregas\context\Context.class
 es\albarregas\dao\IPedidosDAO.class
 es\albarregas\beans\Usuarios.class

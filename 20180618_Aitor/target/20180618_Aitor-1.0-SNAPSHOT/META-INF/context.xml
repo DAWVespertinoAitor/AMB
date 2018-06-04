@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/20180618_Aitor" docBase="20180618_aitor">
+<Context path="/20180618_Aitor" docBase="20180618_Aitor">
     <Resource
     name="jdbc/20180618_Aitor"
     auth="Container"

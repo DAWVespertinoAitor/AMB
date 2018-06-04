@@ -7,6 +7,7 @@ package es.albarregas.beans;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  *
@@ -21,14 +22,14 @@ public class Productos implements Serializable {
     private double precioUnitario;
     private int stock;
     private int stockMinimo;
-    private Date fechaAlta;
+    private Timestamp fechaAlta;
     private char oferta;
     private char fueraCatalogo;
 
     public Productos() {
     }
 
-    public Productos(int idProducto, int idCategoria, int idMarca, String denominacion, String descripcion, double precioUnitario, int stock, int stockMinimo, Date fechaAlta, char oferta, char fueraCatalogo) {
+    public Productos(int idProducto, int idCategoria, int idMarca, String denominacion, String descripcion, double precioUnitario, int stock, int stockMinimo, Timestamp fechaAlta, char oferta, char fueraCatalogo) {
         this.idProducto = idProducto;
         this.idCategoria = idCategoria;
         this.idMarca = idMarca;
@@ -42,7 +43,10 @@ public class Productos implements Serializable {
         this.fueraCatalogo = fueraCatalogo;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Productos{" + "idProducto=" + idProducto + ", idCategoria=" + idCategoria + ", idMarca=" + idMarca + ", denominacion=" + denominacion + ", descripcion=" + descripcion + ", precioUnitario=" + precioUnitario + ", stock=" + stock + ", stockMinimo=" + stockMinimo + ", fechaAlta=" + fechaAlta + ", oferta=" + oferta + ", fueraCatalogo=" + fueraCatalogo + '}';
+    }
 
     public char getFueraCatalogo() {
         return fueraCatalogo;
@@ -116,11 +120,11 @@ public class Productos implements Serializable {
         this.stockMinimo = stockMinimo;
     }
 
-    public Date getFechaAlta() {
+    public Timestamp getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(Date fechaAlta) {
+    public void setFechaAlta(Timestamp fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
 

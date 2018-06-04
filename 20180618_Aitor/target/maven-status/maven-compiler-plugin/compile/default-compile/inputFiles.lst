@@ -1,30 +1,32 @@
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\daofactory\DAOFactory.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Productos.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ImagenesDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\LineasPedidos.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Marcas.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IClientesDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Imagenes.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\modelo\MyLogger.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\UsuariosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\MarcasDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\filters\UTF8Filter.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\CategoriasDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IMarcasDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Usuarios.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Pedidos.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ClientesDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ICategoriasDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\PedidosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Categorias.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ProductosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\daofactory\MySQLDAOFactory.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ILineasPedidosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\ConnectionFactory.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IProductosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IUsuariosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\beans\Clientes.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\LineasPedidosDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IImagenesDAO.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\controllers\Categorias.java
-C:\Users\aitor\Documents\NetBeansProjects\20180618_Aitor\src\main\java\es\albarregas\dao\IPedidosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\daofactory\MySQLDAOFactory.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IClientesDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\modelo\MyLogger.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ImagenesDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\context\Context.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\controllers\Categorias.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IPedidosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Productos.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ICategoriasDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ConnectionFactory.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Categorias.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\LineasPedidosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IMarcasDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Imagenes.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\CategoriasDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IUsuariosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\UsuariosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\filters\UTF8Filter.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ILineasPedidosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\PedidosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IImagenesDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Usuarios.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ClientesDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\MarcasDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\LineasPedidos.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\controllers\Controlador.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\IProductosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\dao\ProductosDAO.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Marcas.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Clientes.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\daofactory\DAOFactory.java
+F:\Aplicaciones recuperacion\20180618_Aitor\src\main\java\es\albarregas\beans\Pedidos.java

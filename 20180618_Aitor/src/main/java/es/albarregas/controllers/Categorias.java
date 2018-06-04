@@ -40,28 +40,28 @@ public class Categorias extends HttpServlet {
         PrintWriter out = response.getWriter();
         String url = null;
 
-        HttpSession sesion = request.getSession(true);
+//        HttpSession sesion = request.getSession(true);
+//
+//        DAOFactory daof = DAOFactory.getDAOFactory();
+//        ICategoriasDAO cdao = daof.getCategoriasDAO();
+//
+//        Categorias categoria = new Categorias();
+//        List<es.albarregas.beans.Categorias> listaCate = cdao.getCategorias();
 
-        DAOFactory daof = DAOFactory.getDAOFactory();
-        ICategoriasDAO cdao = daof.getCategoriasDAO();
-
-        Categorias categoria = new Categorias();
-        List<es.albarregas.beans.Categorias> listaCate = cdao.getCategorias();
-
-        if (sesion.getAttribute("categoriasSesion") == null) {
-            System.out.println("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-            System.out.println("Hola?");
-            System.out.println(sesion.getAttribute("categoriasSesion"));
-            sesion.setAttribute("categoriasSesion", listaCate);
-            System.out.println("Tamaño lista si no existe la sesion" + listaCate.size());
-            out.println("<ul class='nav nav-stacked'>");
-            for (int i = 0; i < listaCate.size(); i++) {
-                System.out.println(listaCate.get(i).getNombre());
-                out.println("<li><a href=\"Controlador?cate=" + listaCate.get(i).getNombre() + "\">" + listaCate.get(i).getNombre() + "</a></li>");
-            }
-            out.println("</ul>");
-
-        }
+//        if (sesion.getAttribute("categoriasSesion") == null) {
+//            System.out.println("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+//            System.out.println("Hola?");
+//            System.out.println("Estado sesion: "+sesion.getAttribute("categoriasSesion"));
+//            sesion.setAttribute("categoriasSesion", listaCate);
+//            System.out.println("Tamaño lista si no existe la sesion" + listaCate.size());
+//            out.println("<ul class='nav nav-stacked'>");
+//            for (int i = 0; i < listaCate.size(); i++) {
+//                System.out.println(listaCate.get(i).getNombre());
+//                out.println("<li><a href=\"Controlador?opCate=" + listaCate.get(i).getIdCategoria() + "\">" + listaCate.get(i).getNombre() + "</a></li>");
+//            }
+//            out.println("</ul>");
+//
+//        }
 //        else {
 //            System.out.println("Entro al else");
 //            List<Categorias> lista = (List<Categorias>) sesion.getAttribute("categoriasSesion");
@@ -74,6 +74,8 @@ public class Categorias extends HttpServlet {
 //            out.println("</ul>");
 //        }
 //        out.println("<ul class=\"dropdown-menu\">");
+
+
 
     }
 
